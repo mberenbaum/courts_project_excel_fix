@@ -1,4 +1,8 @@
-After reading the CSV file I found that there were extra commas in the file causing the CSV to be deliminated in more places than it should. 
+This repo was created to fix the https://iscd.huji.ac.il/data database using R code. 
 
-I opened the excel file from the web site, and saw that there were were many fields that has commas in them. I assume that the CSV file was created from the excel file, where it was not a problem. 
+The database inclueds some records with commas, a problem whan using the CSV and potentially a problem when analyzing with other software. 
+
+The excel files "iscd_cases_2018-12-05.xlsx" and "iscd_judges_2018-12-05.xlsx" were downloaded from https://iscd.huji.ac.il/data and the code in the "read_excel.R" file was run. The resulting files are "cases_fix.xlsx".
+
+This first version does not have a fix for the judges table.
 
