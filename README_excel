@@ -1,0 +1,4 @@
+After reading the CSV file I found that there were extra commas in the file causing the CSV to be deliminated in more places than it should. 
+
+I opened the excel file from the web site, and saw that there were were many fields that has commas in them. I assume that the CSV file was created from the excel file, where it was not a problem. 
+
