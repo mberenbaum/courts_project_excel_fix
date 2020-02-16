@@ -4,5 +4,5 @@ The database inclueds some records with commas, a problem whan using the CSV and
 
 The excel files "iscd_cases_2018-12-05.xlsx" and "iscd_judges_2018-12-05.xlsx" were downloaded from https://iscd.huji.ac.il/data and the code in the "read_excel.R" file was run. The resulting files are "cases_fix.xlsx".
 
-This first version does not have a fix for the judges table.
+This vesion has fixed the cases and judges tabels. But it does not include a CSV file. 
 
