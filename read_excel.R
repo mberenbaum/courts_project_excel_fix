@@ -20,6 +20,12 @@ write_xlsx(
   col_names = TRUE
   )
 
+write_csv(
+  cases_tbl_fix, 
+  path = "cases_fix.csv",
+  col_names = TRUE
+)
+
 
 # reading and fixing the judges table
 
@@ -34,5 +40,13 @@ judges_tbl_fix<- data.frame(lapply(judges_tbl, function(x) {
 write_xlsx(
   judges_tbl_fix, 
   path = "judges_fix.xlsx",
+  col_names = TRUE
+)
+
+
+
+write_csv(
+  judges_tbl_fix, 
+  path = "judges_fix.csv",
   col_names = TRUE
 )
